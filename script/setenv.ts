@@ -4,7 +4,7 @@ const { writeFile } = require('fs');
 require('dotenv').config();
 
 
-const targetPath = `./src/environments/environment.ts`;
+const targetPath = `./src/environments/environment.prod.ts`;
 // we have access to our environment variables
 // in the process.env object thanks to dotenv
 const environmentFileContent = `
